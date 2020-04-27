@@ -25,5 +25,5 @@ app.get('', (req, res) => {
 
 const port = process.env.PORT || 3000
 app.listen(port, () => {
-    console.log('Server is up on port 5000.')
+    console.log('Server is up on port ' + port)
 })
